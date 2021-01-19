@@ -1,0 +1,76 @@
+@charset "utf-8";
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* ヘッダー */
+.header {
+background: rgb(108, 98, 240);
+}
+.header > .continer{
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+/* サイド */
+.sidebar {
+    /* background: gray; */
+    flex: 0 0 240px;
+}
+.sidebar .box{
+    padding: 10px 0;
+}
+.sidebar .box + .box{
+    border-top: 1px solid #ccc;
+}
+
+.list_nav_sidebar{
+    padding: 0;
+}
+.list_nav_sidebar a{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 0 0 80px;
+    position: relative;
+}
+.list_nav_sidebar a:before{
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: gray;
+    /* background-image: url("img/job_kantokukan_man.png"); */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+/*メイン*/
+.main {
+    background: rgb(236, 235, 235);
+    flex: auto;
+    padding: 24px;
+}
+
+.layout_page{
+    display: flex;
+}
+
+.msg_result{
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: rgb(117, 121, 122);
+  }
+  
+  
