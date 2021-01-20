@@ -11,6 +11,11 @@
             </div>
             <div class="box">
                 <ul class="list_nav_sidebar">
+                <li><a href="bukai_start.php">【部会】メンバー振り分け</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="list_nav_sidebar">
                 </ul>
             </div>
         </aside>

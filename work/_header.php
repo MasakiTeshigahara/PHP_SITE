@@ -15,7 +15,7 @@
         <header class="header">
             <div class="continer">
             <title><p class="ttl">Site0.com</p></title>
-            <h1>サイト０</h1>
+            <h1>サイト０から〜</h1>
             </div>
         </header>
         <div class="layout_page">

@@ -5,9 +5,11 @@ include('_sidebar.php');
 ?>
 
 <main class="main">
-    <div class="box">
+    <div class="layout_bukai">
         <section>
-            <img src="img/job_ekisya.png" width="260" height="260" alt="占い師">
+            <div class="img_bukai">
+                <img src="img/job_ekisya.png" width="260" height="260" alt="占い師">
+            </div>
             <h1>くじ引き</h1>
             <form method="POST" action="index.php">
                 <label>フルネームをアルファベットで入力してください</label><br />
